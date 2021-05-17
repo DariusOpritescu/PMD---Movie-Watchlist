@@ -59,7 +59,6 @@ public class MainActivity extends AppCompatActivity {
             recreate();
         }
     }
-
     void displayMovies(){
         Cursor cursor = db.readAllData();
         if(cursor.getCount() == 0)
